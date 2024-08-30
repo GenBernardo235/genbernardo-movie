@@ -9,7 +9,7 @@ const {
     VITE_FIREBASE_STORAGE_BUCKET,
     VITE_FIREBASE_MESSAGING_SENDER_ID,
     VITE_FIREBASE_APP_ID,
-} = import.meta.env
+} = import.meta.env;
 
 const firebaseConfig = {
   apiKey: VITE_FIREBASE_API_KEY,
